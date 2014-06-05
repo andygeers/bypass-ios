@@ -21,9 +21,5 @@ Pod::Spec.new do |s|
   s.source_files =
     'Bypass/*.{h,m,mm}',
     'Libraries/bypass-core/src/*.{h,cpp}',
-    'Libraries/bypass-core/dep/libsoldout/*.h',
-    'Libraries/bypass-core/dep/libsoldout/array.c',
-    'Libraries/bypass-core/dep/libsoldout/buffer.c',
-    'Libraries/bypass-core/dep/libsoldout/markdown.c',
-    'Libraries/bypass-core/dep/libsoldout/renderers.c'
+    'Libraries/bypass-core/src/soldout/*.{h,c}'
 end
