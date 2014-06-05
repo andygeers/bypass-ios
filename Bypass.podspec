@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.xcconfig = { 'OTHER_LDFLAGS' => '-lstdc++' }
   s.compiler_flags = '-stdlib=libc++'
   s.source = {
-    :git => 'https://github.com/Uncodin/bypass-ios.git',
+    :git => 'https://github.com/andygeers/bypass-ios.git',
     :tag => '1.0.1',
     :submodules => true
   }
